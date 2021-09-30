@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 30, 2021 at 04:49 AM
+-- Generation Time: Sep 30, 2021 at 05:22 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 7.4.22
 
@@ -45,9 +45,10 @@ CREATE TABLE `barang` (
 --
 
 INSERT INTO `barang` (`id`, `id_barang`, `nama_barang`, `merk`, `harga_beli`, `harga_jual`, `satuan_barang`, `stok`, `tgl_input`, `tgl_update`) VALUES
-(1, 'BR001', 'pensil', 'Fabel Castel', '1500', '3000', 'PCS', '84', '6 October 2020, 0:41', '30 September 2021, 8:53'),
-(4, 'BR002', 'fe', 'ef', '1000', '10000', 'PCS', '5', '', '30 September 2021, 9:24'),
-(5, 'BR003', 'Bola Yoga', 'fila tes', '50000', '65000', 'PCS', '50', '30 September 2021, 9:28', NULL);
+(1, 'BR001', 'Matras yoga', 'Miniso', '54900', '65000', 'PCS', '100', '6 October 2020, 0:41', '30 September 2021, 10:03'),
+(4, 'BR002', 'Tali Sling', 'Aolikes', '85000', '100000', 'PCS', '80', '', '30 September 2021, 10:20'),
+(5, 'BR003', 'Bola Yoga', 'fila tes', '50000', '65000', 'PCS', '50', '30 September 2021, 9:28', NULL),
+(6, 'BR004', 'Treadmil Elektik', 'iReborn Milano', '12000000', '15000000', 'PCS', '5', '30 September 2021, 10:14', NULL);
 
 -- --------------------------------------------------------
 
@@ -222,7 +223,7 @@ ALTER TABLE `toko`
 -- AUTO_INCREMENT for table `barang`
 --
 ALTER TABLE `barang`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `login`
